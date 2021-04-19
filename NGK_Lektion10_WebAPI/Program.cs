@@ -11,6 +11,9 @@ namespace NGK_Lektion10_WebAPI
 {
     public class Program
     {
+        public static List<WeatherMesurement> DataBank { get; set; } = new List<WeatherMesurement>();
+
+
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
