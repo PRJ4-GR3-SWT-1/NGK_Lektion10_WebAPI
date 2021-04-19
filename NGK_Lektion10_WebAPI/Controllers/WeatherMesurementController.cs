@@ -30,6 +30,7 @@ namespace NGK_Lektion10_WebAPI.Controllers
         }
 
         // POST api/<WeatherMesurementController>
+        // Hvis der bruges postman, så husk at sætte teksten til at bruge JSON. (under body)
         [HttpPost]
         public void Post([FromBody] WeatherMesurement value)
         {
